@@ -1,0 +1,85 @@
+
+:root{
+    --color-primary: #D400FF;
+    --color-secundary: #FF0073;
+    --color-tertiary: #0075FF;
+}
+
+body{
+    background-color: var(--color-primary);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 1.2em;
+    line-height: 25px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding: 20px 30px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+}
+
+.button-principal{
+    background-color: var(--color-secundary);
+    color: white;
+    font-weight: 600;
+}
+
+.button-principal:hover{
+    background-color: #e40067;
+    box-shadow: 0px 0px 4px var(--color-secundary);
+    cursor: pointer;
+}
+
+.button-secundary{
+    background-color: var(--color-primary);
+    color: white;
+    font-weight: 600;
+}
+
+.button-secundary:hover{
+    background-color: #be00e4;
+    box-shadow: 0px 0px 4px var(--color-primary);
+    cursor: pointer;
+}
+
+.A14{
+    padding: 30px 27px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: rgb(255, 145, 0);
+    border-radius: 20px 20px 20px 20px;
+}

@@ -1,0 +1,84 @@
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.256);
+
+    div{
+        .logo{
+            height: 60px;
+            color: black;
+        }
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+
+        ul{
+            display: flex;
+            gap: 15px;
+
+            li{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+                svg{
+                    font-size: 24px;
+                }
+                
+                a{
+                    margin: 0px;
+                }
+            }
+        }
+    }
+}
+
+.infos{
+    background-image: url(../../assets/banners/black-panther-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+
+    .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        max-width: 35vw;
+        margin-left: -10px;
+        padding-left: 50px;
+        background-image: linear-gradient(90deg, black, transparent);
+
+        h1{
+            margin: 0px 0px 20px 0px;
+        }
+
+        p{
+            text-align: left;
+        }
+
+        .buttons{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+    }
+
+    .control{
+        color: white;
+        font-weight: 600;
+        padding: 0px;
+        margin-top: 400px;
+        margin-bottom: 90px;
+        background-color: rgba(255, 255, 255, 0.278);
+        border-radius: 20px 0px 0px 20px;
+    }
+}
