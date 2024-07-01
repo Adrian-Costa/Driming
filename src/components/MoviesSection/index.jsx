@@ -16,7 +16,7 @@ export const MoviesSection = () => {
             } else if (window.innerWidth < 1200) {
                 setSlidePerView(3);
             }else {
-                setSlidePerView(4)
+                setSlidePerView(4);
             }
         }
         handleResize()
